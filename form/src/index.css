@@ -4,8 +4,36 @@
 
 body {
   margin: 0;
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+h1,
+h3,
+button{
+  font-family: 'Poor Story', cursive;
 }
 
 .users-title{
   margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 950px){
+
+  .main-container{
+    flex-direction: column;
+  }
+
+  .left-side{
+    min-width: 100vw;
+  }
+
+  .left-side > .form-container{
+    max-width: 90vw;
+    padding: 50px;
+  }
+
+  .right-side{
+    min-width: 100vw;
+  }
 }
