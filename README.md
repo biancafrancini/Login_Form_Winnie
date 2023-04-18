@@ -13,4 +13,4 @@ Built using by:
 - CSS
 - Tailwind
 
-- Stable Diffusion (to create the background image based on Winnie-the-pooh book style)
+- Stable Diffusion (to create the background image)
