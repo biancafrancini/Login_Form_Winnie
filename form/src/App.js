@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import "./index.css";
+
 function App() {
   const [data, setData] = useState({
     name: "",
@@ -29,9 +31,12 @@ function App() {
   };
 
   return (
-    <div>
-      <h1>Add yourself to our users 👤</h1>
-      <input
+    <div className="flex">
+    <div className="flex flex-col bg-red-300 justify-center items-center p-12 w-1/2 h-screen">
+      <h1 className="text-3xl mb-8">Login</h1>
+      <div className="flex flex-col border-2 bg-white rounded-xl px-24 py-12 w-82">
+        <input
+        className="border-2 rounded-md p-2 mt-4"
         type="text"
         name="name"
         value={data.name}
@@ -39,6 +44,7 @@ function App() {
         onChange={handleInput}
       />
       <input
+        className="border-2 rounded-md p-2 mt-4"
         type="email"
         name="email"
         value={data.email}
@@ -46,20 +52,27 @@ function App() {
         onChange={handleInput}
       />
       <input
+        className="border-2 rounded-md p-2 mt-4"
         type="password"
         name="password"
         value={data.password}
         placeholder="password"
         onChange={handleInput}
       />
-      <button type="submit" onClick={submit}>
-        Submit
+      <div className="text-center">
+      <button className="my-8 border-2 p-2 w-fit rounded-md" type="submit" onClick={submit}>
+        Log in
       </button>
+      </div>
+      </div>
       {data.name !== "" && (
         <div>
           <p>Hi {data.name}! 😃</p>
         </div>
       )}
+      </div>
+      
+      {/*<div className="border-2 p-12">
       <div className="users-title-container">
         <h3>Users ⤵️ </h3>
         <ul>
@@ -67,8 +80,13 @@ function App() {
             <li key={name + index}>{name}</li>
           ))}
         </ul>
+          </div>
+
+      </div>*/}
+      <div className="w-1/2 bg-purple-300">
+        <h2>CIAO</h2>
       </div>
-    </div>
+      </div>
   );
 }
 
