@@ -4,7 +4,7 @@ An easy login form to get practice with React.js.
 
 Design based on Winnie The Pooh book's style.
 
-Built using by:
+Built using:
 
 - React.js
 - JavaScript
