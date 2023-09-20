@@ -1,16 +1,4 @@
-# Easy-form
+# Login-form
 
-An easy login form to get practice with React.js. 
+A Login form page based on Winnie The Pooh book's style.
 
-Design based on Winnie The Pooh book's style.
-
-Built using:
-
-- React.js
-- JavaScript
-- react-icons
-- HTML
-- CSS
-- Tailwind
-
-- Stable Diffusion (to create the background image)
