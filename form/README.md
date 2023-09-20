@@ -1,3 +1,4 @@
 # Description:
 
-A Login page based on Winnie The Pooh book style. Main picture created with Stable Diffusion. Single-page application built using React.js and styled with Tailwind CSS.
+A Login page based on Winnie The Pooh book style.
+Built using React.js and styled with Tailwind CSS. Right-side background picture created with Stable Diffusion. 
